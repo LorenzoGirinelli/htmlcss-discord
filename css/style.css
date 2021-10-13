@@ -28,29 +28,61 @@ body{
 .container{
     width: 70%;
     margin: auto;
-
-    /* test */
-    background-color: thistle;
 }
 
+img{
+    width: 100%;
+}
+
+/* Buttons */
+
+.btn-small{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+    background-color: white;
+    border-radius: 35px;
+    display: inline-block;
+    line-height: normal;
+}
+.btn-white{
+    color: black;
+    background-color: white;
+}
 /* HEADER */
 
 header{
-    background-color: blue;
     color: white;
-
-    /* TEST */
     height: 80px;
 }
-
-.logo, .login{
-    width: 10%;
-    background-color: tomato;
-    /* test */
-    height: 50px;
+nav{
+    line-height: 80px;
 }
-.menu{
+.logo, 
+.login{
+    width: 10%;
+    text-align: right;
+}
+.logo img{
+    vertical-align: middle;
+}
+.central-menu{
     width: 80%;
-    background-color: turquoise;
-    height: 50px;
+    text-align: center;
+}
+.top-menu{
+    list-style-type: none;
+}
+.top-menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.top-menu a{
+    text-decoration: none;
+    color: white;
+}
+.jumbotron{
+    height: 620px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
