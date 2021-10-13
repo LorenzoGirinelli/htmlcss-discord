@@ -7,7 +7,7 @@
 
 /* COMMON */
 body{
-    font-family: "Whitney",sans-serif;
+    font-family: sans-serif;
 }
 
 /* Layout generic classes */
@@ -49,16 +49,16 @@ img{
 }
 .btn-black{
     color: white;
-    background-color: black;
+    background-color: #23272a;
 }
 
 .btn-large{
     text-decoration: none;
     display: inline-block;
     line-height: normal;
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 30px;
-    padding: 15px 20px;
+    padding: 20px 28px;
     border-radius: 35px;
 
 }
@@ -109,6 +109,9 @@ nav{
     font-size: 23px;
 }
 .jumbotron-content h1{
-    font-size: 55px;
+    font-size: 65px;
     margin-bottom: 45px;
+}
+.buttons{
+    margin-top: 29px;
 }
