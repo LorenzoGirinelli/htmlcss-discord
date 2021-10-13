@@ -1,0 +1,56 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: "Whitney",sans-serif;
+}
+
+/* Layout generic classes */
+
+.col{
+    float: left;
+}
+
+.crearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/* container */
+
+.container{
+    width: 70%;
+    margin: auto;
+
+    /* test */
+    background-color: thistle;
+}
+
+/* HEADER */
+
+header{
+    background-color: blue;
+    color: white;
+
+    /* TEST */
+    height: 80px;
+}
+
+.logo, .login{
+    width: 10%;
+    background-color: tomato;
+    /* test */
+    height: 50px;
+}
+.menu{
+    width: 80%;
+    background-color: turquoise;
+    height: 50px;
+}
