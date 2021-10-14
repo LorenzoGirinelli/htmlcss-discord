@@ -124,7 +124,7 @@ main section{
 /* Advantages */
 .advantages .col-image{
     width: 60%;
-    padding-right: 20px;
+    padding-right: 0px;
 }
 .advantages .col-text{
     width: 40%;
